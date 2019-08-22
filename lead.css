@@ -1,0 +1,61 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FF9100;
+}
+
+.section {
+    background-color: #FF6500;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.header {
+    font-family: 'Lexend Tera';
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    padding: 0.1px;
+    letter-spacing: 2px;
+    clear: left;
+    border-bottom: 2px solid white;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: #FF6500;
+    clear: left;
+}
+
+.navbar ul li {
+    list-style: none;
+    float: left;
+    margin-right: auto;
+    margin-top: 0px;
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    margin-left: auto;
+    text-align: center;
+    width: 14%;
+    padding: 10px;
+    transition: all 0.3s linear;
+  }
+
+  .navbar ul li:hover {
+    cursor: pointer;
+    background-color: #A64200;
+    color: red;
+  }
+
+
+
