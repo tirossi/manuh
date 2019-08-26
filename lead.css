@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-    width: 10%;
+    width: 20%;
 }
 
 .header {
@@ -24,11 +24,14 @@ body {
     color: white;
     font-weight: bold;
     font-size: 25px;
-    list-style: none;
     text-align: center;
     letter-spacing: 2px;
     clear: left;
     border-bottom: 2px solid white;
+    padding: 20px;
+    background-image: url(icons\LadrilhosFundo_filipeta.svg);
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .navbar {
@@ -55,14 +58,14 @@ body {
     transition: all 0.3s linear;
   }
 
-  li a {
+  .navbar li a {
     text-decoration: none;
     color: white;
     padding: 10px;
-    transition: all 0.3s linear
+    transition: all 0.3s linear;
   }
 
-  li a:hover {
+  .navbar li a:hover {
       cursor: pointer;
       color: red;
   }
@@ -75,6 +78,34 @@ body {
       max-width: 100%;
       height: auto;
   }
+
+  .menu_header {
+      width: 50%;
+  }
+
+  h1 {
+      font-size: 0px;
+  }
+
+  .day_select ul li {
+      color: white;
+      list-style-type: none;
+  }
+
+ .day_select li a{
+     display: block;
+     padding: 8px 16px;
+     transition: all 0.3s linear;
+ }
+
+ .day_select li a:hover {
+     cursor: pointer;
+     color: red;
+ }
+
+ .day_select ul {
+     background-color:;
+ }
 
 
 
