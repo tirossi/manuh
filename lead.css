@@ -34,6 +34,7 @@ body {
     padding-bottom: 50px;
     background-color: #FF6500;
     clear: left;
+    border-bottom: 2px solid white;
 }
 
 .navbar ul li {
@@ -55,6 +56,27 @@ body {
     cursor: pointer;
     background-color: #A64200;
     color: red;
+  }
+
+  li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.3s linear
+  }
+
+  li a:hover {
+      color: red;
+  }
+
+  .selected {
+      color: red;
+  }
+
+  .home_img {
+      max-width: 100%;
+      height: auto;
+      padding-top: 10px;
   }
 
 
